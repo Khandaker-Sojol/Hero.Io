@@ -6,7 +6,7 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center gap-5">
+    <div className="flex flex-col items-center gap-5 mb-12">
       <img src={errorImg} alt="" />
       <h1 className="text-[#001931] font-semibold text-5xl">
         Oops, page not found!

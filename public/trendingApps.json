@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/QvWP6YQf/original-5d3b0213e39c3984d0c70dc917c6ed27.webp",
+    "title": "TaskMaster",
+    "companyName": "HeroApps",
+    "description": "Organize your tasks efficiently and boost productivity.",
+    "size": 25,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 35 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/hrpmFFY/1701269196270.jpg",
+    "title": "NoteQuick",
+    "companyName": "QuickSoft",
+    "description": "Take notes on the go with ease and simplicity.",
+    "size": 15,
+    "reviews": 80,
+    "ratingAvg": 4.2,
+    "downloads": 3000,
+    "ratings": [
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 18 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/twqPJj66/45488a29-99f3-4c64-9549-629255337435-cover.png",
+    "title": "FitTrack",
+    "companyName": "HealthCorp",
+    "description": "Track your fitness and health goals effortlessly.",
+    "size": 30,
+    "reviews": 200,
+    "ratingAvg": 4.7,
+    "downloads": 12000,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/DPPcs04q/91u-JZQJn65-L.png",
+    "title": "BudgetBuddy",
+    "companyName": "FinancePro",
+    "description": "Manage your expenses and savings smartly.",
+    "size": 20,
+    "reviews": 150,
+    "ratingAvg": 4.3,
+    "downloads": 7000,
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 49 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/1fyx0wVk/Budget-Buddy-Expense-Tracker-Manager-App.jpg",
+    "title": "PhotoMagic",
+    "companyName": "PixelWorks",
+    "description": "Edit photos like a pro with amazing filters.",
+    "size": 45,
+    "reviews": 300,
+    "ratingAvg": 4.6,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 120 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/qYdrKKxK/30881b209593125-Y3-Jvc-Cwz-Mj-My-LDI1-Mjgs-MCww.png",
+    "title": "TravelMate",
+    "companyName": "GlobeTrotters",
+    "description": "Plan your trips and explore new destinations.",
+    "size": 35,
+    "reviews": 180,
+    "ratingAvg": 4.4,
+    "downloads": 9000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 45 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/zHsrSMbf/images.jpg",
+    "title": "LearnHub",
+    "companyName": "EduTech",
+    "description": "Learn new skills online with interactive courses.",
+    "size": 50,
+    "reviews": 250,
+    "ratingAvg": 4.8,
+    "downloads": 20000,
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/CswJy4Kj/unnamed.webp",
+    "title": "FoodieFun",
+    "companyName": "YumApps",
+    "description": "Discover new recipes and restaurants nearby.",
+    "size": 28,
+    "reviews": 100,
+    "ratingAvg": 4.1,
+    "downloads": 6000,
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 23 }
+    ]
+  }
+]
