@@ -4,8 +4,8 @@ import bannerImg from "/images/hero.png";
 const Banner = () => {
   return (
     <section>
-      <div className="text-center bg-[#F5F5F5] p-20 ">
-        <h1 className="font-bold text-7xl text-[#001931]">
+      <div className="text-center bg-[#F5F5F5] px-6 pt-12 pb-0  md:p-20 ">
+        <h1 className="font-bold text-5xl md:text-7xl text-[#001931]">
           We Build <br />
           <span className="text-gradient">Productive</span> Apps
         </h1>
@@ -107,11 +107,11 @@ const Banner = () => {
           <img src={bannerImg} alt="" />
         </figure>
       </div>
-      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] p-20 text-center">
+      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-12 px-6 md:p-20 text-center">
         <h2 className="text-white text-5xl font-bold mb-12">
           Trusted by Millions, Built for You
         </h2>
-        <div className="flex text-[#FFF] gap-10 justify-center">
+        <div className="flex text-[#FFF] gap-10 justify-center flex-wrap">
           <div>
             <p className="opacity-80">Total Downloads</p>
             <h1 className="text-6xl font-extrabold my-4">29.6M</h1>
