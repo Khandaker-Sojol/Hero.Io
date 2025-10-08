@@ -1,4 +1,3 @@
-import React from "react";
 import { useLoaderData, useParams } from "react-router";
 import AppErrorPage from "./AppErrorPage";
 import {
@@ -9,19 +8,37 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { toast } from "react-toastify";
 
 import downloadIcons from "/images/icon-downloads.png";
 import ratingIcons from "/images/icon-ratings.png";
 import iconsReview from "/images/icon-review.png";
+import { useState } from "react";
 
 const AppDetails = () => {
   const { id } = useParams();
   const allApps = useLoaderData();
   const app = allApps.find((item) => item.id === parseInt(id));
 
+  const [installed, setInstalled] = useState(false);
+
   if (!app) {
     return <AppErrorPage></AppErrorPage>;
   }
+
+  const handleInstall = () => {
+    setInstalled(true);
+    toast.success(`${app.title} Installed Successfully!`);
+
+    const installedApps =
+      JSON.parse(localStorage.getItem("installedApps")) || [];
+    const alreadyInstalled = installedApps.find((item) => item.id === app.id);
+
+    if (!alreadyInstalled) {
+      installedApps.push(app);
+      localStorage.setItem("installedApps", JSON.stringify(installedApps));
+    }
+  };
   return (
     <div className="rounded-lg p-20">
       <div className="flex items-center flex-col md:flex-row gap-6  md:items-center border-b border-gray-300 pb-12">
@@ -62,8 +79,16 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <button className="mt-6 rounded-md bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-6 py-3 font-semibold cursor-pointer">
-            Install Now ({app.size} MB)
+          <button
+            onClick={handleInstall}
+            disabled={installed}
+            className={`mt-6 rounded-md  px-6 py-3 font-semibold cursor-pointer ${
+              installed
+                ? "bg-gray-400 text-white cursor-not-allowed"
+                : "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white "
+            }`}
+          >
+            {installed ? " Installed" : `Install Now (${app.size} MB)`}
           </button>
         </div>
       </div>
