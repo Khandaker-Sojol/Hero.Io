@@ -6,7 +6,7 @@ const AppErrorPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col items-center gap-5 md:p-20">
+    <div className="flex flex-col items-center p-6 gap-5 md:p-20">
       <img src={appErrorImg} alt="" />
       <h1 className="text-[#001931] font-semibold text-5xl">
         OPPS!! APP NOT FOUND

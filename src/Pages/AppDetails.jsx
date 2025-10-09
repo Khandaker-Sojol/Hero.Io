@@ -40,12 +40,12 @@ const AppDetails = () => {
     }
   };
   return (
-    <div className="rounded-lg p-20">
+    <div className="rounded-lg p-6 md:p-20">
       <div className="flex items-center flex-col md:flex-row gap-6  md:items-center border-b border-gray-300 pb-12">
         <img
           src={app.image}
           alt={app.title}
-          className="w-1/2 h-auto object-cover rounded-md"
+          className="md:w-1/2 h-auto object-cover rounded-md"
         />
 
         <div className="flex-1">

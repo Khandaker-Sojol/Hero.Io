@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AppCard from "../Components/AppCard";
 import InstallAppCard from "../Components/InstallAppCard";
-import { CiSearch } from "react-icons/ci";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Installation = () => {
-  const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+  const [installedApps, setInstalledApps] = useState([]);
+
+  useEffect(() => {
+    const saveApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    setInstalledApps(saveApps);
+  }, []);
+
   return (
     <div className="py-12 px-6 md:px-20">
       <div className="text-center">
@@ -44,9 +49,14 @@ const Installation = () => {
         </ul>
       </div>
       {installedApps.length > 0 ? (
-        <div className="py-10">
+        <div className="pt-10">
           {installedApps.map((app) => (
-            <InstallAppCard key={app.id} app={app}></InstallAppCard>
+            <InstallAppCard
+              key={app.id}
+              app={app}
+              installedApps={installedApps}
+              setInstalledApps={setInstalledApps}
+            ></InstallAppCard>
           ))}
         </div>
       ) : (
