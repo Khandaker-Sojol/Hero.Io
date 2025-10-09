@@ -1,20 +1,31 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import AppCard from "../Components/AppCard";
 import { CiSearch } from "react-icons/ci";
 import AppErrorPage from "./AppErrorPage";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Apps = () => {
   const appData = useLoaderData();
-  console.log(appData);
   const [searchItem, setSearchItem] = useState("");
+  const [filteredApps, setFilteredApps] = useState(appData);
+  const [loading, setLoading] = useState(false);
 
-  const filteredApps = appData.filter((app) =>
-    app.title.toLowerCase().includes(searchItem.toLowerCase())
-  );
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setSearchItem(value);
+    setLoading(true);
+
+    const results = appData.filter((app) =>
+      app.title.toLowerCase().includes(value.toLowerCase())
+    );
+    setFilteredApps(results);
+    setTimeout(() => setLoading(false), 200);
+  };
 
   return (
     <div className="py-12 pb-20">
+      {loading && <LoadingSpinner />}
       <div className="text-center">
         <h1 className="text-5xl font-bold text-[#001931]">
           Our All Applications
@@ -36,7 +47,7 @@ const Apps = () => {
             type="search"
             placeholder="Search App"
             value={searchItem}
-            onChange={(e) => setSearchItem(e.target.value)}
+            onChange={handleSearch}
             required
           />
         </label>
