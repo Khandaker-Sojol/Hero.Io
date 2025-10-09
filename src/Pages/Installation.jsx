@@ -30,7 +30,7 @@ const Installation = () => {
       </div>
       <div className="flex justify-between px-6 md:px-20">
         <h3 className="text-[#001931] font-semibold text-2xl">
-          ({installedApps.length})Apps Found
+          ({installedApps.length})Apps Installed
         </h3>
 
         <button

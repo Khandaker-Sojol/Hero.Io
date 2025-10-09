@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "/images/app9.png",
+    "image": "https://i.ibb.co.com/DJq852v/maxresdefault.jpg",
     "title": "WeatherWise",
     "companyName": "SkyTech",
     "description": "WeatherWise provides highly accurate, real-time weather forecasts powered by advanced meteorological data. Track hourly, daily, and weekly weather updates, view radar maps, and get severe weather alerts before they happen. The app also includes sunrise and sunset times, air quality index, and smart notifications to help you plan your day with confidence.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "/images/app10.png",
+    "image": "https://i.ibb.co.com/wFBRhpVM/images-1.jpg",
     "title": "MindRelax",
     "companyName": "ZenSoft",
     "description": "MindRelax is your personal meditation and mindfulness companion designed to help you manage stress, sleep better, and improve focus. Enjoy guided meditation sessions, calming soundscapes, and breathing exercises tailored to your mood. Whether you're new to meditation or an experienced practitioner, MindRelax helps you achieve peace and balance anytime, anywhere.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "/images/app11.png",
+    "image": "https://i.ibb.co.com/Dfqw899d/product-image-1651034896887.png",
     "title": "ShopEase",
     "companyName": "MarketPro",
     "description": "ShopEase makes online shopping effortless and enjoyable. Discover thousands of products across multiple categories with exclusive discounts and personalized recommendations. Track your orders in real-time, compare prices, and enjoy fast delivery options. With secure payment methods and 24/7 support, ShopEase ensures a smooth and reliable shopping experience.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "/images/app12.png",
+    "image": "https://i.ibb.co.com/3mQZBbfM/crypto-pro-portfolio-tracker.png",
     "title": "MovieStream",
     "companyName": "CinePlus",
     "description": "MovieStream lets you enjoy your favorite movies, series, and documentaries in high-definition anytime. Browse trending titles, create personalized watchlists, and enjoy seamless streaming with no interruptions. With smart recommendations and offline viewing, MovieStream is your all-in-one entertainment hub for every mood.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "/images/app13.png",
+    "image": "https://i.ibb.co.com/Q3VzyLv0/original-7a6ad33936c09fc30e7fbaad1badb0a4.webp",
     "title": "CryptoTracker",
     "companyName": "FinTechPro",
     "description": "CryptoTracker keeps you informed about live cryptocurrency prices, market trends, and breaking crypto news. Track Bitcoin, Ethereum, and hundreds of altcoins in real-time. Get price alerts, portfolio tracking, and performance analytics with a sleek interface designed for both beginners and experienced traders.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "/images/app14.png",
+    "image": "https://i.ibb.co.com/0pshLd88/music-maker-jam-16920-1.jpg",
     "title": "LanguageLingo",
     "companyName": "EduWorld",
     "description": "LanguageLingo helps you learn new languages quickly and effectively through interactive lessons, quizzes, and real-life dialogues. Master pronunciation, grammar, and vocabulary with AI-powered guidance. Whether traveling abroad or boosting your career, LanguageLingo makes learning fun and convenient.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "/images/app15.png",
+    "image": "https://i.ibb.co.com/DHQd7NhF/share-img.png",
     "title": "MusicJam",
     "companyName": "TuneSoft",
     "description": "MusicJam gives you unlimited access to millions of songs and playlists from every genre. Stream music online, download for offline listening, and create your own playlists easily. With smart recommendations and crystal-clear sound quality, MusicJam is the ultimate destination for every music lover.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "/images/app16.png",
+    "image": "https://i.ibb.co.com/600ZZ1Rd/unnamed.png",
     "title": "HealthBuddy",
     "companyName": "WellnessInc",
     "description": "HealthBuddy is a complete health and wellness tracker designed to keep you fit and motivated. Monitor your steps, calories, heart rate, and sleep patterns with easy-to-read stats. Set fitness goals, track progress, and receive daily health tips that help you maintain a balanced lifestyle.",
@@ -289,7 +289,7 @@
   },
   {
     "id": 17,
-    "image": "/images/app17.png",
+    "image": "https://i.ibb.co.com/SXhYbwsH/Flutter-News-App-with-laravel-as-backend.jpg",
     "title": "PhotoGallery",
     "companyName": "PixelArts",
     "description": "PhotoGallery organizes your pictures beautifully with smart albums and automatic tagging. Easily share your memories, apply filters, and back up photos securely to the cloud. With a modern design and fast performance, it’s the perfect app to relive and share your favorite moments.",
@@ -307,7 +307,7 @@
   },
   {
     "id": 18,
-    "image": "/images/app18.png",
+    "image": "https://i.ibb.co.com/27HF0ZjH/images-2.jpg",
     "title": "NewsFlash",
     "companyName": "MediaPro",
     "description": "Stay informed with NewsFlash — your one-stop app for breaking news, live updates, and trending stories from around the world. Customize your feed, follow your favorite topics, and receive real-time notifications so you never miss important headlines again.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 19,
-    "image": "/images/app19.png",
+    "image": "https://i.ibb.co.com/Dfqw899d/product-image-1651034896887.png",
     "title": "GameZone",
     "companyName": "FunApps",
     "description": "GameZone brings together hundreds of exciting games across genres — action, puzzle, racing, and more — all in one place. Compete with friends, earn rewards, and discover new challenges daily. Smooth graphics, fast loading, and offline play make GameZone a gamer’s paradise.",
@@ -343,7 +343,7 @@
   },
   {
     "id": 20,
-    "image": "/images/app20.png",
+    "image": "https://i.ibb.co.com/5xh9081g/9f22d8f32c41c199c6f2a7f039fe993a-fgraphic.png",
     "title": "FitLife",
     "companyName": "HealthCorp",
     "description": "FitLife helps you stay in shape with personalized workout routines, diet plans, and daily motivation. Track your fitness progress with visual charts, connect with trainers, and stay consistent through community challenges. Whether at home or the gym, FitLife keeps your goals within reach.",
