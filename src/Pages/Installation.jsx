@@ -11,6 +11,13 @@ const Installation = () => {
     setInstalledApps(saveApps);
   }, []);
 
+  const handleSort = (order) => {
+    const sorted = [...installedApps].sort((a, b) =>
+      order === "high" ? b.downloads - a.downloads : a.downloads - b.downloads
+    );
+    setInstalledApps(sorted);
+  };
+
   return (
     <div className="py-12 px-6 md:px-20">
       <div className="text-center">
@@ -41,10 +48,10 @@ const Installation = () => {
           style={{ positionAnchor: "--anchor-1" }}
         >
           <li>
-            <a>High To Low</a>
+            <button onClick={() => handleSort("high")}>High To Low</button>
           </li>
           <li>
-            <a>Low to High</a>
+            <button onClick={() => handleSort("low")}>Low to High</button>
           </li>
         </ul>
       </div>
