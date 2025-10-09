@@ -1,3 +1,18 @@
+# App Name => Hero.Io
+
+## Description =>
+
+    Hero.Io is a modern React application to explore, search, and manage trending apps. Users can install/uninstall apps and view ratings and downloads in a responsive UI.
+
+## Technologies I Used =>
+
+    *React (with Hooks)
+    *React Router
+    *Tailwind CSS
+    *React Icons
+    *LocalStorage for installed apps
+    *React Toastify for notifications
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
